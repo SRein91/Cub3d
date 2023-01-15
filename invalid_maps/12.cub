@@ -1,0 +1,16 @@
+
+NO ./textures/pillar.xpm
+SO ./textures/pillar.xpm
+C                       203,255,140
+EA ./textures/pillar.xpm
+WE ./textures/pillar.xpm
+
+F 78,1,16
+
+11111111111111111
+10000000000000001
+101000    0000101
+10000000000000001
+100000N0100010001
+11111111111111111
+
