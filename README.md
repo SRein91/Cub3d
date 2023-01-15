@@ -7,30 +7,27 @@ This project is a 3D graphical representation of the inside of a maze from a fir
 For the project we had to use the miniLibX.
 
 <b>Allowed functions:</b>
-``` open, close, read, write, printf, malloc, free, perror, strerror, exit
-All functions of the math
-library (-lm man man 3 math)
-All functions of the MinilibX```
+``` open, close, read, write, printf, malloc, free, perror, strerror, exit, All functions of the math library (-lm man man 3 math), All functions of the MinilibX ```
 
-<b>Map format</b>
-``` The map must be composed of only 6 possible characters: 0 for an empty space, 1 for a wall, and N,S,E or W for the player’s start position and spawning orientation.
-The map must be closed/surrounded by walls, if not the program must return an error.
-Except for the map content, each type of element can be separated by one or more empty line(s).
-Except for the map content which always has to be the last, each type of element can be set in any order in the file.
-Except for the map, each type of information from an element can be separated by one or more space(s).
-The map must be parsed as it looks in the file. Spaces are a valid part of the map and are up to you to handle. You must be able to parse any kind of map, as long as it respects the rules of the map.
-Each element (except the map) firsts information is the type identifier (composed by one or two character(s)), followed by all specific informations for each object in a strict order such as:
-North texture: NO ./path_to_the_north_texture
-South texture: SO ./path_to_the_south_texture
-West texture: WE ./path_to_the_west_texture
-East texture: EA ./path_to_the_east_texture
-Floor color: F 220,100,0
-Ceiling color: C 225,30,0```
+### Map format
+The map must be composed of only 6 possible characters: 0 for an empty space, 1 for a wall, and N,S,E or W for the player’s start position and spawning orientation.\
+The map must be closed/surrounded by walls, if not the program must return an error.\
+Except for the map content, each type of element can be separated by one or more empty line(s).\
+Except for the map content which always has to be the last, each type of element can be set in any order in the file.\
+Except for the map, each type of information from an element can be separated by one or more space(s).\
+The map must be parsed as it looks in the file. Spaces are a valid part of the map and are up to you to handle. You must be able to parse any kind of map, as long as it respects the rules of the map.\
+Each element (except the map) firsts information is the type identifier (composed by one or two character(s)), followed by all specific informations for each object in a strict order such as:\
+North texture: NO ./path_to_the_north_texture\
+South texture: SO ./path_to_the_south_texture\
+West texture: WE ./path_to_the_west_texture\
+East texture: EA ./path_to_the_east_texture\
+Floor color: F 220,100,0\
+Ceiling color: C 225,30,0
 
-<b>Keyboard controls</b>
-``` The left and right arrow keys of the keyboard allow you to look left and right in the maze.
-The W, A, S, and D keys allow you to move the point of view through the maze.
-Pressing ESC```
+### Keyboard controls
+The left and right arrow keys of the keyboard allow you to look left and right in the maze.\
+The W, A, S, and D keys allow you to move the point of view through the maze.\
+Pressing ESC
 
 ## How to use
 
