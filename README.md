@@ -47,6 +47,8 @@ cd cub3d && make
 ./cub3D maps/<map name>
 ```
 
+![alt text](https://github.com/SRein91/Cub3d/blob/main/Cub3d.png?raw=true)
+
 <br>
 <hr>
 <b>This is a 42 project which has to be written in C in accordance to the 42 School Norm.<br></b>
